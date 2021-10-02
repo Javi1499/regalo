@@ -9,6 +9,7 @@ btn.addEventListener("click", (event) => {
     console.log(p1, p2, p3)
     if (p1 == 22 && p2 == "05:00" && p3 == 8.8) {
         window.location.href = "/final.html";
+        return;
     }
     alert("Ups!! Te equivocaste en una respuesta, verifica que escribiste correctamente")
 })
