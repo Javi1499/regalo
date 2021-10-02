@@ -1,0 +1,24 @@
+body{
+    background: rgb(255,224,1);
+    background: -moz-radial-gradient(circle, rgba(255,224,1,1) 0%, rgba(121,9,72,1) 48%, rgba(36,0,255,0.9401961468181023) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,224,1,1) 0%, rgba(121,9,72,1) 48%, rgba(36,0,255,0.9401961468181023) 100%);
+    background: radial-gradient(circle, rgba(255,224,1,1) 0%, rgba(121,9,72,1) 48%, rgba(36,0,255,0.9401961468181023) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe001",endColorstr="#2400ff",GradientType=1); 
+}
+
+.text{
+    color: white;
+    text-align: center;
+}
+.title{
+    margin: 2rem 0;
+}
+h3{
+    margin: 2rem 0;
+}
+
+.account{
+ font-family: 'Courier New', Courier, monospace;   
+ font-size: 100px;
+ text-align: center;
+}
